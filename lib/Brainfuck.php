@@ -1,5 +1,8 @@
 <?php
 
+/**
+ * PHP implementation of an interpreter for the Brainfuck programming language by Urban Müller in 1993.
+ */
 class Brainfuck
 {
 
