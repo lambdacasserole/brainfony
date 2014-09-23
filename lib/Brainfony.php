@@ -27,8 +27,7 @@ class Brainfony
      */
     public static function renderFile($path, $input = '')
     {
-        $file = fopen($path, 'r');
-        $program = fread($file, filesize($path));
+        $program = file_get_contents($path);
         self::render($program, $input);
     }
 }
